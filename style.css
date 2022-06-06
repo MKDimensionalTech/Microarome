@@ -1,0 +1,135 @@
+@charset "utf-8";
+*{
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(to bottom,#d43c09,#fbe0c7,#d56945,#c6400b,#d43c09);
+}
+header{
+    padding-top: 20px;
+    height: 230px;
+}
+header> h1{
+    text-align: center;
+    color: #43c7d9;
+    background-color: white;
+    padding:20px;
+    margin-top: 20px;
+    width: 300px;
+    margin: auto;
+    border-radius: 40px 10px;
+    font-size: 3em;
+}
+header> h2{
+    color: rgb(248, 248, 248);
+    padding: 30px;
+    text-align: center;
+}
+header> p{
+    color: rgb(255, 254, 254);
+    padding-left: 10px;
+}
+main{
+    padding-top:20px ;
+    max-width: 800px;
+    margin:auto;
+}
+section#Projeto{
+    height: 180px;
+    padding-top:30px;
+    padding-left: 20px;
+    background-image: url(pexels-pixabay-59999.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    margin: auto;
+}
+section#Projeto> h2{
+    background-color:white ;
+    color: rgb(7, 6, 6);
+    border-radius: 60px, 10px;
+    width: 150px;
+    text-align: center;
+}
+section#Projeto> p{
+   background-color: rgba(184, 187, 190, 0.674);
+   max-width:760px;
+}
+section#Pesquisas{
+    height: 300px;
+    padding-top:50px;
+    padding-left: 20px;
+    background-image: url(pexels-lukas-1414126\ \(1\).jpg);
+    background-attachment: fixed;
+}
+section#Pesquisas> h2{
+    background-color:white ;
+    color: rgb(7, 6, 6);
+    border-radius: 60px, 10px;
+    width: 150px;
+    text-align: center;
+}
+section#Pesquisas> p{
+   background-color: rgba(184, 187, 190, 0.674);
+   max-width:760px;
+}
+section#Produto{
+    height: 200px;
+    padding-top:50px;
+    padding-left: 20px;
+    background-image: url(pexels-engin-akyurt-1435735.jpg);
+    background-attachment: fixed;
+}
+section#Produto> h2{
+    background-color:white ;
+    color: rgb(7, 6, 6);
+    border-radius: 60px, 10px;
+    width: 150px;
+    text-align: center;
+}
+section#Produto> p{
+   background-color: rgba(184, 187, 190, 0.674);
+   max-width:760px;
+}
+section#Mercado{
+    height: 250px;
+    padding-top:50px;
+    padding-left: 20px;
+    background-image: url(pexels-olga-1153655\ \(1\).jpg);
+    background-attachment: fixed;
+}
+section#Mercado> h2{
+    background-color:white ;
+    color: rgb(7, 6, 6);
+    border-radius: 60px, 10px;
+    width: 150px;
+    text-align: center;
+}
+section#Mercado> p{
+   background-color: rgba(184, 187, 190, 0.674);
+   max-width:760px;
+}
+section#Desafios{
+    height: 150px;
+    padding-top:50px;
+    padding-left: 20px;
+    background-image: url(pexels-quang-nguyen-vinh-2135677.jpg);
+    background-attachment: fixed;
+}
+section#Desafios> h2{
+    background-color:white ;
+    color: rgb(7, 6, 6);
+    border-radius: 60px, 10px;
+    width: 150px;
+    text-align: center;
+}
+section#Desafios> p{
+   background-color: rgba(184, 187, 190, 0.674);
+   max-width:760px;
+}
+footer> h2{
+    background-color: white;
+    text-align: center;
+}
+
+
+
