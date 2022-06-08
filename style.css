@@ -1,4 +1,20 @@
 @charset "utf-8";
+@font-face {
+    font-family:'calvino' ;
+    src: url(calvino/Calvino-Grande-Black-trial.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'neon' ;
+    src: url(neon_80s/Neon.ttf) format('truetype');
+}
+@font-face {
+    font-family:'main' ;
+    src: url(mainstay/Mainstay.ttf) format('truetype');
+}
+@font-face {
+    font-family:'cham' ;
+    src: url(champagne_limousines/Champagne\ &\ Limousines.ttf) format('truetype');
+}
 *{
     margin: 0;
 }
@@ -10,6 +26,7 @@ header{
     height: 230px;
 }
 header> h1{
+    font-family: 'neon','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: #43c7d9;
     background-color: white;
@@ -24,112 +41,153 @@ header> h2{
     color: rgb(248, 248, 248);
     padding: 30px;
     text-align: center;
+    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header> p{
     color: rgb(255, 254, 254);
-    padding-left: 10px;
+    text-align: center;
+    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 main{
     padding-top:20px ;
     max-width: 800px;
     margin:auto;
 }
-section#Projeto{
-    height: 180px;
-    padding-top:30px;
-    padding-left: 20px;
+section#Projeto> div{
+    height: 200px;
+    padding-top:20px;
     background-image: url(pexels-pixabay-59999.jpg);
     background-attachment: fixed;
     text-align: center;
     margin: auto;
 }
-section#Projeto> h2{
+section#Projeto> div> h2{
+    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:white ;
     color: rgb(7, 6, 6);
     border-radius: 60px, 10px;
     width: 150px;
     text-align: center;
 }
-section#Projeto> p{
+section#Projeto> div> p{
    background-color: rgba(184, 187, 190, 0.674);
-   max-width:760px;
+   padding: 20px;
+   text-align: justify;
+   font-family: 'cham' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1.08em;
+   font-weight:600 ;
 }
-section#Pesquisas{
-    height: 300px;
-    padding-top:50px;
-    padding-left: 20px;
+section#Pesquisas> div{
+    height: 360px;
+    padding-top:20px;
     background-image: url(pexels-lukas-1414126\ \(1\).jpg);
     background-attachment: fixed;
 }
-section#Pesquisas> h2{
+section#Pesquisas> div> h2{
+    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:white ;
     color: rgb(7, 6, 6);
     border-radius: 60px, 10px;
-    width: 150px;
+    width: 200px;
     text-align: center;
 }
-section#Pesquisas> p{
+section#Pesquisas> div> p{
    background-color: rgba(184, 187, 190, 0.674);
-   max-width:760px;
+   text-align: justify;
+   padding: 20px;
+   font-family: 'cham' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1.08em;
+   font-weight:600 ;
 }
-section#Produto{
+section#Produto> div{
     height: 200px;
-    padding-top:50px;
-    padding-left: 20px;
+    padding-top:20px;
     background-image: url(pexels-engin-akyurt-1435735.jpg);
     background-attachment: fixed;
 }
-section#Produto> h2{
+section#Produto> div> h2{
+    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:white ;
     color: rgb(7, 6, 6);
     border-radius: 60px, 10px;
     width: 150px;
     text-align: center;
 }
-section#Produto> p{
+section#Produto> div> p{
    background-color: rgba(184, 187, 190, 0.674);
-   max-width:760px;
+   text-align: justify;
+   padding: 20px;
+   font-family: 'cham' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1.08em;
+   font-weight:600 ;
 }
-section#Mercado{
-    height: 250px;
-    padding-top:50px;
-    padding-left: 20px;
+section#Mercado> div{
+    height: 300px;
+    padding-top:20px;
     background-image: url(pexels-olga-1153655\ \(1\).jpg);
     background-attachment: fixed;
 }
-section#Mercado> h2{
+section#Mercado> div> h2{
+    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:white ;
     color: rgb(7, 6, 6);
     border-radius: 60px, 10px;
     width: 150px;
     text-align: center;
 }
-section#Mercado> p{
+section#Mercado> div> p{
    background-color: rgba(184, 187, 190, 0.674);
-   max-width:760px;
+   text-align: justify;
+   padding: 20px;
+   font-family: 'cham' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1.08em;
+   font-weight:600 ;
+}
+a{
+    text-decoration: none;
+    color: #a02f03;
 }
 section#Desafios{
-    height: 150px;
-    padding-top:50px;
-    padding-left: 20px;
+    height: 200px;
+    padding-top:20px;
     background-image: url(pexels-quang-nguyen-vinh-2135677.jpg);
     background-attachment: fixed;
 }
-section#Desafios> h2{
+section#Desafios> div> h2{
+    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:white ;
     color: rgb(7, 6, 6);
     border-radius: 60px, 10px;
-    width: 150px;
+    width: 200px;
     text-align: center;
 }
-section#Desafios> p{
+section#Desafios> div> p{
    background-color: rgba(184, 187, 190, 0.674);
-   max-width:760px;
+   padding: 20px;
+   text-align: justify;
+   font-family: 'cham' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1.08em;
+   font-weight:600 ;
+}
+footer{
+    max-width: 800px;
+    margin: auto;
 }
 footer> h2{
+    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
     text-align: center;
+    padding: 10px;
+    color: #43c7d9;
 }
+footer> p{
+    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #3598a5;
+}
+
 
 
 
