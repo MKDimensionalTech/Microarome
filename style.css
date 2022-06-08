@@ -53,8 +53,10 @@ main{
     max-width: 800px;
     margin:auto;
 }
+section#Projeto{
+}
 section#Projeto> div{
-    height: 200px;
+    height: 250px;
     padding-top:20px;
     background-image: url(pexels-pixabay-59999.jpg);
     background-attachment: fixed;
@@ -66,7 +68,7 @@ section#Projeto> div> h2{
     background-color:white ;
     color: rgb(7, 6, 6);
     border-radius: 60px, 10px;
-    width: 150px;
+    width: 130px;
     text-align: center;
 }
 section#Projeto> div> p{
@@ -78,7 +80,7 @@ section#Projeto> div> p{
    font-weight:600 ;
 }
 section#Pesquisas> div{
-    height: 360px;
+    height: 450px;
     padding-top:20px;
     background-image: url(pexels-lukas-1414126\ \(1\).jpg);
     background-attachment: fixed;
@@ -88,7 +90,7 @@ section#Pesquisas> div> h2{
     background-color:white ;
     color: rgb(7, 6, 6);
     border-radius: 60px, 10px;
-    width: 200px;
+    width: 300px;
     text-align: center;
 }
 section#Pesquisas> div> p{
@@ -100,7 +102,7 @@ section#Pesquisas> div> p{
    font-weight:600 ;
 }
 section#Produto> div{
-    height: 200px;
+    height: 230px;
     padding-top:20px;
     background-image: url(pexels-engin-akyurt-1435735.jpg);
     background-attachment: fixed;
@@ -122,7 +124,7 @@ section#Produto> div> p{
    font-weight:600 ;
 }
 section#Mercado> div{
-    height: 300px;
+    height: 400px;
     padding-top:20px;
     background-image: url(pexels-olga-1153655\ \(1\).jpg);
     background-attachment: fixed;
@@ -148,7 +150,7 @@ a{
     color: #a02f03;
 }
 section#Desafios{
-    height: 200px;
+    height: 230px;
     padding-top:20px;
     background-image: url(pexels-quang-nguyen-vinh-2135677.jpg);
     background-attachment: fixed;
