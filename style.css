@@ -76,11 +76,11 @@ section#Projeto> div> p{
    padding: 20px;
    text-align: justify;
    font-family: 'cham' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 1.08em;
+   font-size: 1.12em;
    font-weight:600 ;
 }
 section#Pesquisas> div{
-    height: 450px;
+    height: 430px;
     padding-top:20px;
     background-image: url(pexels-lukas-1414126\ \(1\).jpg);
     background-attachment: fixed;
@@ -98,7 +98,7 @@ section#Pesquisas> div> p{
    text-align: justify;
    padding: 20px;
    font-family: 'cham' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 1.08em;
+   font-size: 1.12em;
    font-weight:600 ;
 }
 section#Produto> div{
@@ -120,11 +120,11 @@ section#Produto> div> p{
    text-align: justify;
    padding: 20px;
    font-family: 'cham' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 1.08em;
+   font-size: 1.12em;
    font-weight:600 ;
 }
 section#Mercado> div{
-    height: 400px;
+    height: 380px;
     padding-top:20px;
     background-image: url(pexels-olga-1153655\ \(1\).jpg);
     background-attachment: fixed;
@@ -138,11 +138,11 @@ section#Mercado> div> h2{
     text-align: center;
 }
 section#Mercado> div> p{
-   background-color: rgba(184, 187, 190, 0.674);
+   background-color: rgba(245, 246, 248, 0.753);
    text-align: justify;
    padding: 20px;
    font-family: 'cham' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 1.08em;
+   font-size: 1.12em;
    font-weight:600 ;
 }
 a{
@@ -168,7 +168,7 @@ section#Desafios> div> p{
    padding: 20px;
    text-align: justify;
    font-family: 'cham' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 1.08em;
+   font-size: 1.12em;
    font-weight:600 ;
 }
 footer{
