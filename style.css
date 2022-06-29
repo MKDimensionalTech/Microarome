@@ -17,43 +17,111 @@
 }
 *{
     margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+:target{
+    scroll-margin-top:35px ;
 }
 body{
+    scroll-behavior: smooth;
     background-image:linear-gradient(to bottom,#d43c09,#fbe0c7,#d56945,#c6400b,#d43c09);
 }
-header{
-    padding-top: 20px;
-    height: 230px;
+div#menufixo{
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    margin: auto;
 }
-header> h1{
+nav#menu{
+    display: none;
+    visibility:hidden;
+    padding-top: 8px;
+    padding-left: 30px;
+}
+nav#menu> ul{
+    display: inline-flex;
+    list-style: none;
+}
+nav#menu> ul>li>a{
+    padding-left: 10px;
+    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img#close{
+    margin-left: 10px;
+    position: absolute;
+    visibility: hidden;
+    width: 30px;
+    background-color: none;
+    height: 30px;
+}
+img#button{
+    margin-left: 10px;
+    background-color: none;
+    width: 30px;
+    background-color: none;
+    height: 30px;
+}
+nav#frutas{
+    padding-left: 30px;
+    display: block;
+    
+}
+nav#frutas>ul{
+    display: inline-flex;
+}
+nav#frutas>ul>li{
+    list-style: none;
+    padding-left:10px ;
+}
+nav#frutas>ul>li>img{
+    padding-top: 5px;
+    width: 30px;
+    height: 25px;
+}
+nav#frutas>ul>li>h4{
+    display: none;
+    visibility: hidden;
+    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5px;
+    font-size: 1.5em;
+    color: #a02f03;
+}
+div#conteudoheader{
+    margin-top: 50px;
+}
+div#conteudoheader> h1{
     font-family: 'neon','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: #43c7d9;
     background-color: white;
     padding:20px;
-    margin-top: 20px;
     width: 300px;
     margin: auto;
     border-radius: 40px 10px;
     font-size: 3em;
 }
-header> h2{
+div#conteudoheader> h2{
     color: rgb(248, 248, 248);
     padding: 30px;
     text-align: center;
     font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-header> p{
+div#conteudoheader> p{
     color: rgb(255, 254, 254);
     text-align: center;
     font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
 }
 main{
     padding-top:20px ;
     max-width: 800px;
     margin:auto;
-}
-section#Projeto{
 }
 section#Projeto> div{
     height: 250px;
@@ -172,24 +240,37 @@ section#Desafios> div> p{
    font-weight:600 ;
 }
 footer{
-    max-width: 800px;
-    margin: auto;
-}
-footer> h2{
-    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
     background-color: white;
     text-align: center;
-    padding: 10px;
-    color: #43c7d9;
 }
-footer> p{
-    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: white;
-    text-align: center;
-    padding-bottom: 20px;
-    color: #3598a5;
+footer>div{
+    display: inline-flex;
 }
 
+footer>div> h2{
+    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    padding: 5px;
+    color: #43c7d9;
+    
+}
+footer>div> p{
+    font-family:'neon' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    padding: 9px;
+    color: #3598a5;
+}
+footer>nav{
+}
+footer>nav>ul{
+    display: inline-flex;
+    padding: 5px;
+}
+footer>nav>ul>li{
+    list-style: none;
+    padding-left: 5px;
+}
 
 
 

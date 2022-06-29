@@ -10,18 +10,96 @@
 </head>
 <body>
     <header>
-        <h1>MicroArôme</h1>
-        <h2>Microrganismos biossintetizantes de aromas frutais</h2>
-        <p>by Michaela Galbiati</p>
+        <div id="menufixo">
+            <img id="button" src="menu-aberto.png" alt="">
+            <img id="close" src="menu-aberto.png" alt="">
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="#Projeto">Projeto</a>
+                    </li>
+                    <li>
+                        <a href="#Pesquisas">Pesquisas</a>
+                    </li>
+                    <li>
+                        <a href="#Produto">Produto</a>
+                    </li>
+                    <li>
+                        <a href="#Mercado">Mercado</a>
+                    </li>
+                    <li>
+                        <a href="#Desafios">Desafio</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav id="frutas">
+                <ul>
+                    <li>
+                        <img id="morango" src="morango.png" alt="">
+                        <h4 id="M_maiusculo">M</h4>
+                    </li>
+                    <li>
+                        <img id="laranja" src="laranja.png" alt="">
+                        <h4 id="i_minusculo">i</h4>
+                        
+                    </li>
+                    <li>
+                        <img id="mirtilo" src="mirtilo.png" alt="">
+                        <h4 id="c_minusculo">c</h4>
+
+                    </li>
+                    <li>
+                        <img id="lima" src="lima.png" alt="">
+                        <h4 id="r_minusculo">r</h4>
+
+                    </li>
+                    <li>
+                        <img id="manga" src="manga.png" alt="">
+                        <h4 id="o_minusculo">o</h4>
+
+                    </li>
+                    <li>
+                        <img id="uva" src="uvas.png" alt="">
+                        <h4 id="A_maiusculo">A</h4>
+
+                    </li>
+                    <li>
+                        <img id="maça" src="fruta-maca.png" alt="">
+                        <h4 id="r2_minusculo">r</h4>
+                        
+                    </li>
+                    <li>
+                        <img id="melancia" src="melancia.png" alt="">
+                        <h4 id="o2_minusculo">ô</h4>
+
+                    </li>
+                    <li>
+                        <img id="kiwi" src="icons8-kiwi-48.png" alt="">
+                        <h4 id="m_minusculo">m</h4>
+                        
+                    </li>
+                    <li>
+                        <img id="cereja" src="icons8-cherry-64.png" alt="">
+                        <h4 id="e_minusculo">e</h4>
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="conteudoheader">
+            <h1>MicroArôme</h1>
+            <h2>Microrganismos biossintetizantes de aromas frutais</h2>
+            <p>by Michaela Galbiati</p>
+        </div>
     </header>
-    <main>
+    <main id="fechar">
         <section id="Projeto">
             <div>
                 <h2>O Projeto</h2>
-            <p>Neste projeto, utilizaremos microorganismos (em sua maioria leveduras), extraídos de    substratos do processo industrial alimentício de frutas e até mesmo, do resto de plantações que
-                não serão utilizadas. Estes microrganismos extraídos dos substratos de frutas terão a função de aromatizar o
-                ambiente, sendo usado como um psicrobiótico, proporcionando diversas sensações e alterações
-                no humor.</p>
+                <p>Neste projeto, utilizaremos microorganismos (em sua maioria leveduras), extraídos de    substratos do processo industrial alimentício de frutas e até mesmo, do resto de plantações que
+                    não serão utilizadas. Estes microrganismos extraídos dos substratos de frutas terão a função de aromatizar o
+                    ambiente, sendo usado como um psicrobiótico, proporcionando diversas sensações e alterações
+                    no humor.</p>
             </div>
         </section>
         <section id="Pesquisas">
@@ -56,7 +134,8 @@
                 </div>
         </section>
         <section id="Mercado">
-            <div><h2>O Mercado</h2>
+            <div>
+                <h2>O Mercado</h2>
                 <p>Não tendo atualmente concorrentes no mercado - através da busca do produto à base de
                     microrganismos como aromatizantes. Entretanto, possui base científica no artigo Aliment.
                     vol.26 no.3 Campinas July/Sept. 2006 - <a href="https://doi.org/10.1590/S0101-20612006000300004h" target="_blank" rel="next">https://doi.org/10.1590/S0101-20612006000300004h</a> -
@@ -80,8 +159,225 @@
         </section>
     </main>
     <footer>
-        <h2>MicroArôme</h2>
-        <p>by Michaela Galbiati</p>
+        <div>
+            <h2>MicroArôme</h2>
+            <p>by Michaela Galbiati</p>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="@" target="_blank" rel="next"><img src="facebook.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="@" target="_blank" rel="next"><img src="whatsapp.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="@" target="_blank" rel="next"><img src="gmail.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="@" target="_blank" rel="next"><img src="instagram.png" alt=""></a>
+                </li>
+            </ul>
+        </nav>
     </footer>
+    <script>
+        const cereja=document.getElementById("cereja");
+        cereja.addEventListener("mouseenter",cerejap)
+        cereja.addEventListener("mouseleave",cerejad)
+        const e_minusculo=document.getElementById('e_minusculo');
+        const kiwi=document.getElementById("kiwi");
+        kiwi.addEventListener("mouseover",kiwip)
+        kiwi.addEventListener("mouseout",kiwid)
+        const m_minusculo=document.getElementById('m_minusculo');
+        const melancia=document.getElementById("melancia");
+        melancia.addEventListener("mouseover",melanciap)
+        melancia.addEventListener("mouseout",melanciad)
+        const o2_minusculo=document.getElementById('o2_minusculo');
+        const maça=document.getElementById("maça");
+        maça.addEventListener("mouseover",maçap)
+        maça.addEventListener("mouseout",maçad)
+        const r2_minusculo=document.getElementById('r2_minusculo');
+        const uva=document.getElementById("uva");
+        uva.addEventListener("mouseover",uvap)
+        uva.addEventListener("mouseout",uvad)
+        const A_maiusculo=document.getElementById('A_maiusculo');
+        const manga=document.getElementById("manga");
+        manga.addEventListener("mouseover",mangap)
+        manga.addEventListener("mouseout",mangad)
+        const o_minusculo=document.getElementById('o_minusculo');
+        const lima=document.getElementById("lima");
+        lima.addEventListener("mouseover",limap)
+        lima.addEventListener("mouseout",limad)
+        const r_minusculo=document.getElementById('r_minusculo');
+        const mirtilo=document.getElementById("mirtilo");
+        mirtilo.addEventListener("mouseover",mirtilop)
+        mirtilo.addEventListener("mouseout",mirtilod)
+        const c_minusculo=document.getElementById('c_minusculo');
+        const laranja=document.getElementById("laranja");
+        laranja.addEventListener("mouseover",laranjap)
+        laranja.addEventListener("mouseout",laranjad)
+        const i_minusculo=document.getElementById('i_minusculo');
+        const morango= document.getElementById('morango')
+        morango.addEventListener('mouseover',passar)
+        morango.addEventListener('mouseout',deixar)
+        const M_maiusculo= document.getElementById('M_maiusculo')
+        const fruta = document.getElementById('frutas');
+        const text=document.getElementById("fechar")
+        text.addEventListener("click",fecha)
+        const menu=document.getElementById('menu')
+        const botão = document.getElementById('button')
+        botão.addEventListener('click',abrir)
+        const botãoclose=document.getElementById('close')
+        botãoclose.addEventListener('click',fechar)
+        function abrir(){
+            menu.style.visibility="visible"
+            botão.style.visibility="hidden"
+            botãoclose.style.visibility="visible"
+            fruta.style.visibility="hidden"
+            fruta.style.display='none'
+            menu.style.display='block'
+        }
+        function fechar(){
+            menu.style.visibility="hidden"
+            botão.style.visibility="visible"
+            botãoclose.style.visibility="hidden"
+            fruta.style.visibility="visible"
+            menu.style.display='none' 
+            fruta.style.display='block'
+        }
+        function fecha(){
+            menu.style.visibility="hidden"
+            botãoclose.style.visibility="hidden"
+            botão.style.visibility="visible"
+            fruta.style.visibility="visible"
+            menu.style.display='none'  
+            fruta.style.display='block' 
+        }
+        function passar(){
+            morango.style.visibility="hidden"
+            M_maiusculo.style.visibility="visible"
+            M_maiusculo.style.display='block'
+            morango.style.display='none'
+        }
+        function deixar(){
+            morango.style.visibility="visible"
+            M_maiusculo.style.visibility="hidden"
+            M_maiusculo.style.display='none'
+            morango.style.display='block'
+        }
+        function laranjap(){
+            laranja.style.visibility="hidden"
+            i_minusculo.style.visibility="visible"
+            i_minusculo.style.display='block'
+            laranja.style.display='none'
+        }
+        function laranjad(){
+            laranja.style.visibility="visible"
+            i_minusculo.style.visibility="hidden"
+            i_minusculo.style.display='none'
+            laranja.style.display='block'
+        }
+        function mirtilop(){
+            mirtilo.style.visibility="hidden"
+            c_minusculo.style.visibility="visible"
+            c_minusculo.style.display='block'
+            mirtilo.style.display='none'
+        }
+        function mirtilod(){
+            mirtilo.style.visibility="visible"
+            c_minusculo.style.visibility="hidden"
+            c_minusculo.style.display='none'
+            mirtilo.style.display='block'
+        }
+        function limap(){
+            lima.style.visibility="hidden"
+            r_minusculo.style.visibility="visible"
+            r_minusculo.style.display='block'
+            lima.style.display='none'
+        }
+        function limad(){
+            lima.style.visibility="visible"
+            r_minusculo.style.visibility="hidden"
+            r_minusculo.style.display='none'
+            lima.style.display='block'
+        }
+        function mangap(){
+            manga.style.visibility="hidden"
+            o_minusculo.style.visibility="visible"
+            o_minusculo.style.display='block'
+            manga.style.display='none'
+        }
+        function mangad(){
+            manga.style.visibility="visible"
+            o_minusculo.style.visibility="hidden"
+            o_minusculo.style.display='none'
+            manga.style.display='block'
+        }
+        function uvap(){
+            uva.style.visibility="hidden"
+            A_maiusculo.style.visibility="visible"
+            A_maiusculo.style.display='block'
+            uva.style.display='none'
+        }
+        function uvad(){
+            uva.style.visibility="visible"
+            A_maiusculo.style.visibility="hidden"
+            A_maiusculo.style.display='none'
+            uva.style.display='block'
+        }
+        function maçap(){
+            maça.style.visibility="hidden"
+            r2_minusculo.style.visibility="visible"
+            r2_minusculo.style.display='block'
+            maça.style.display='none'
+        }
+        function maçad(){
+            maça.style.visibility="visible"
+            r2_minusculo.style.visibility="hidden"
+            r2_minusculo.style.display='none'
+            maça.style.display='block'
+        }
+        function melanciap(){
+            melancia.style.visibility="hidden"
+            o2_minusculo.style.visibility="visible"
+            o2_minusculo.style.display='block'
+            melancia.style.display='none'
+        }
+        function melanciad(){
+            melancia.style.visibility="visible"
+            o2_minusculo.style.visibility="hidden"
+            o2_minusculo.style.display='none'
+            melancia.style.display='block'
+        }
+        function kiwip(){
+            kiwi.style.visibility="hidden"
+            m_minusculo.style.visibility="visible"
+            m_minusculo.style.display='block'
+            kiwi.style.display='none'
+        }
+        function kiwid(){
+            kiwi.style.visibility="visible"
+            m_minusculo.style.visibility="hidden"
+            m_minusculo.style.display='none'
+            kiwi.style.display='block'
+        }
+        function cerejap(){
+            cereja.style.visibility="hidden"
+            e_minusculo.style.visibility="visible"
+            e_minusculo.style.display='block'
+            cereja.style.display='none'
+        }
+        function cerejad(){
+            cereja.style.visibility="visible"
+            e_minusculo.style.visibility="hidden"
+            e_minusculo.style.display='none'
+            cereja.style.display='block'
+        }
+        function aparecer(){
+            fruta.style.visibility="visible"
+            fruta.style.display='block'
+        }
+
+    </script>
 </body>
 </html>
