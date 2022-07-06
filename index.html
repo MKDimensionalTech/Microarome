@@ -11,8 +11,15 @@
 <body>
     <header>
         <div id="menufixo">
-            <img id="button" src="menu-aberto.png" alt="">
-            <img id="close" src="menu-aberto.png" alt="">
+            <div id="div">
+                <span id="menu1" class="barrinha-menu"></span>
+                <span id="menu2" class="barrinha-menu"></span>
+                <span id="menu3" class="barrinha-menu"></span>
+              </div>
+              <div id="div2">
+                <div id="menu1"></div>
+                <div id="menu2"></div>
+              </div>
             <nav id="menu">
                 <ul>
                     <li>
@@ -81,7 +88,9 @@
                     <li>
                         <img id="cereja" src="icons8-cherry-64.png" alt="">
                         <h4 id="e_minusculo">e</h4>
-
+                    </li>
+                    <li>
+                        <img id="interrogação" src="ponto-de-interrogacao.png" alt="">
                     </li>
                 </ul>
             </nav>
@@ -181,6 +190,9 @@
         </nav>
     </footer>
     <script>
+        const interrogação=document.getElementById("interrogação");
+        interrogação.addEventListener("mouseenter",interrog)
+        interrogação.addEventListener("mouseleave",interrogd)
         const cereja=document.getElementById("cereja");
         cereja.addEventListener("mouseenter",cerejap)
         cereja.addEventListener("mouseleave",cerejad)
@@ -225,30 +237,132 @@
         const text=document.getElementById("fechar")
         text.addEventListener("click",fecha)
         const menu=document.getElementById('menu')
-        const botão = document.getElementById('button')
-        botão.addEventListener('click',abrir)
-        const botãoclose=document.getElementById('close')
-        botãoclose.addEventListener('click',fechar)
+        const div2=document.getElementById("div2");
+        const menu3 = document.getElementById("menu3");
+        const menu1 = document.getElementById("menu1");
+        const menu2 = document.getElementById("menu2");
+        const div=document.getElementById("div");
+        div.addEventListener("click",clicar1)
+        div2.addEventListener('click',clicar2)
+        function interrog(){
+            interrogação.style.visibility="hidden"
+            laranja.style.visibility="hidden"
+            i_minusculo.style.visibility="visible"
+            i_minusculo.style.display='block'
+            laranja.style.display='none'
+            mirtilo.style.visibility="hidden"
+            c_minusculo.style.visibility="visible"
+            c_minusculo.style.display='block'
+            mirtilo.style.display='none'
+            lima.style.visibility="hidden"
+            r_minusculo.style.visibility="visible"
+            r_minusculo.style.display='block'
+            lima.style.display='none'
+            manga.style.visibility="hidden"
+            o_minusculo.style.visibility="visible"
+            o_minusculo.style.display='block'
+            manga.style.display='none'
+            uva.style.visibility="hidden"
+            A_maiusculo.style.visibility="visible"
+            A_maiusculo.style.display='block'
+            uva.style.display='none'
+            maça.style.visibility="hidden"
+            r2_minusculo.style.visibility="visible"
+            r2_minusculo.style.display='block'
+            maça.style.display='none'
+            melancia.style.visibility="hidden"
+            o2_minusculo.style.visibility="visible"
+            o2_minusculo.style.display='block'
+            melancia.style.display='none'
+            kiwi.style.visibility="hidden"
+            m_minusculo.style.visibility="visible"
+            m_minusculo.style.display='block'
+            kiwi.style.display='none'
+            cereja.style.visibility="hidden"
+            e_minusculo.style.visibility="visible"
+            e_minusculo.style.display='block'
+            cereja.style.display='none'
+            morango.style.visibility="hidden"
+            M_maiusculo.style.visibility="visible"
+            M_maiusculo.style.display='block'
+            morango.style.display='none'
+        }
+        function interrogd(){
+            interrogação.style.visibility="visible"
+            laranja.style.visibility="visible"
+            i_minusculo.style.visibility="hidden"
+            i_minusculo.style.display='none'
+            laranja.style.display='block'
+            mirtilo.style.visibility="visible"
+            c_minusculo.style.visibility="hidden"
+            c_minusculo.style.display='none'
+            mirtilo.style.display='block'
+            lima.style.visibility="visible"
+            r_minusculo.style.visibility="hidden"
+            r_minusculo.style.display='none'
+            lima.style.display='block'
+            manga.style.visibility="visible"
+            o_minusculo.style.visibility="hidden"
+            o_minusculo.style.display='none'
+            manga.style.display='block'
+            uva.style.visibility="visible"
+            A_maiusculo.style.visibility="hidden"
+            A_maiusculo.style.display='none'
+            uva.style.display='block'
+            maça.style.visibility="visible"
+            r2_minusculo.style.visibility="hidden"
+            r2_minusculo.style.display='none'
+            maça.style.display='block'
+            melancia.style.visibility="visible"
+            o2_minusculo.style.visibility="hidden"
+            o2_minusculo.style.display='none'
+            melancia.style.display='block'
+            kiwi.style.visibility="visible"
+            m_minusculo.style.visibility="hidden"
+            m_minusculo.style.display='none'
+            kiwi.style.display='block'
+            cereja.style.visibility="visible"
+            e_minusculo.style.visibility="hidden"
+            e_minusculo.style.display='none'
+            cereja.style.display='block'
+            morango.style.visibility="visible"
+            M_maiusculo.style.visibility="hidden"
+            M_maiusculo.style.display='none'
+            morango.style.display='block'
+        }
+        function clicar1(){
+            div.style.display="none"
+            div2.style.display="block"
+            div2.style.marginTop="15px"
+            div2.style.marginLeft="10px"
+            menu.style.visibility="visible"
+            fruta.style.visibility="hidden"
+            fruta.style.display='none'
+            menu.style.display='block'
+        }
+        function clicar2(){
+            div.style.display="block"
+            div2.style.display="none"
+            menu.style.visibility="hidden"
+            fruta.style.visibility="visible"
+            menu.style.display='none' 
+            fruta.style.display='block'
+
+        }
         function abrir(){
             menu.style.visibility="visible"
-            botão.style.visibility="hidden"
-            botãoclose.style.visibility="visible"
             fruta.style.visibility="hidden"
             fruta.style.display='none'
             menu.style.display='block'
         }
         function fechar(){
             menu.style.visibility="hidden"
-            botão.style.visibility="visible"
-            botãoclose.style.visibility="hidden"
             fruta.style.visibility="visible"
             menu.style.display='none' 
             fruta.style.display='block'
         }
         function fecha(){
             menu.style.visibility="hidden"
-            botãoclose.style.visibility="hidden"
-            botão.style.visibility="visible"
             fruta.style.visibility="visible"
             menu.style.display='none'  
             fruta.style.display='block' 

@@ -38,6 +38,34 @@ div#menufixo{
     background-color: white;
     margin: auto;
 }
+.barrinha-menu {
+    height: 4px;
+    width: 50px;
+    background-color: #43c7d9;
+    display: block;
+    margin: 4px;
+    transition: width 0.5s ease, margin-left 0.5s ease;
+  }
+
+div#div2{
+  display: none;
+}
+div#div2> div#menu1{
+  width: 30px;
+  height: 4px;
+  background-color: #a02f03;
+  margin-top: 0px;
+  transform: rotate(55deg);
+  position: absolute;
+  transition: width 0.5s ease, margin-left 0.5s ease;
+}
+div#div2> div#menu2{
+  width: 30px;
+  height: 4px;
+  background-color: #a02f03;
+  transform: rotate(-55deg);
+  transition: width 0.5s ease, margin-left 0.5s ease;
+}
 nav#menu{
     display: none;
     visibility:hidden;
