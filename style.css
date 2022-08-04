@@ -98,7 +98,6 @@ img#button{
 nav#frutas{
     padding-left: 30px;
     display: block;
-    
 }
 nav#frutas>ul{
     display: inline-flex;
@@ -300,5 +299,29 @@ footer>nav>ul>li{
     padding-left: 5px;
 }
 
+@media (max-width:600px) {
+    nav#frutas{
+        padding-left: 30px;
+        display: none;
+    }
+    section#Mercado> div{
+        height: 480px;
+        padding-top:20px;
+        background-image: url(pexels-olga-1153655\ \(1\).jpg);
+        background-attachment: fixed;
+    }
+    section#Produto> div{
+        height: 340px;
+        padding-top:20px;
+        background-image: url(pexels-engin-akyurt-1435735.jpg);
+        background-attachment: fixed;
+    }
+    section#Pesquisas> div{
+        height: 530px;
+        padding-top:20px;
+        background-image: url(pexels-lukas-1414126\ \(1\).jpg);
+        background-attachment: fixed;
+    }
+}
 
 
